@@ -6,9 +6,9 @@ An investment company wants to start looking into AI to predict the markets.  As
 
 
 ## Method
-In place of using a time series model, I decided to use a more unconventional route and implemented a classification model instead. 
+In place of using a time series model, I decided to use a more unconventional route and implemented a **classification model** instead. 
 
-My model is focused on predicting any 4 percent price increase within a five-day range.
+My model is focused on predicting any **4 percent price increase within a five-day range.**
 
 
 ## Data 
