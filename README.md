@@ -14,12 +14,13 @@ My model is focused on predicting any 4 percent price increase within a five-day
 ## Data 
 The data was collected from [AlphaVantage.co](https://www.alphavantage.co/) api. 
 
-the data features:
-* open price
-* high price
-* low price 
-* close price
-* volume
+|data features:|
+|--------------|
+|  open price  |
+|  high price  |
+|  low price   |
+|  close price |
+|  volume      |
 
 I will be using the last 1500 market days (roughly 6 years)  
 
