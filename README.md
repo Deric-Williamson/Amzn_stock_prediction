@@ -22,11 +22,13 @@ the data features:
 * volume
 
 I will be using the last 1500 market days (roughly 6 years)  
+
+<img src="/images/predictor_value_counts.PNG" width = 50%/>  
    
 In the last six years, The amazon sees a 4 percent price change within 5 days about a third of the time.  
 Note, the days that sees a 4 percent price change within 5 days are typically grouped  
 
-<img src="/images/predictor_value_counts.PNG" width = 50%/>
+
 
 
 
@@ -46,14 +48,14 @@ Decision Tree and XGB models both had decent starting stats.
 My Efforts had been spent on the Decision Tree Classifier to use as a best estimator to the Gradient Boosting model.
 
 ### Decision Tree Classifier
-<img src="/images/feature_importances.PNG" width = 50%/> 
+<img src="/images/feature_importances.PNG" width = 25%/> 
 
 Interestingly my model did not make use of the stochastic or the relative strength index(RSI) techinical Indicators or the Open and Low prices.
 
 ### Gradient Boosting
-<img src="/images/grad_boost_classification_report.PNG" width = 50%/> 
-<img src="/images/grad_boost_full_xy_confustion_matrix.PNG" width = 50%/> 
-<img src="/images/grad_boost_test_xy_confustion_matrix.PNG" width = 50%/> 
+<img src="/images/classification_report.PNG" width = 50%/> 
+<img src="/images/confusion_matrix_full.PNG" width = 50%/> 
+<img src="/images/confusion_matrix_test.PNG" width = 50%/> 
 
 Precision = .84  
 Recall = .21  
@@ -64,7 +66,7 @@ Recall is still important in this model, It signifies the ratio between found to
 
 ## Misclassified Data
 These four data points represents the bad investment opportunites that my model suggest will go up four percent.
-<img src="/images/misclassified_data.PNG" width = 50%/> 
+<img src="/images/misclassified_data.PNG" width = 100%/> 
 
 * One point did go up to 3.975 percent
 * The rest was during Pandemic times, but other than that, I am unsure why it couldve failed.
