@@ -1,5 +1,5 @@
 # Amzn_stock_prediction
-* Deric Williamson
+ By Deric Williamson
 
 ## Business Case
 An investment company wants to start looking into AI to predict the markets.  As a Data Scientist, I have been hired to look at Amazon stocks to predict when to invest the company’s money into the stock. If this prediction model works, the company will expand their AI efforts to other stock markets.
