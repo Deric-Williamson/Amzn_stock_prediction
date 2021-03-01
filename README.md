@@ -21,7 +21,7 @@ the data features:
 * close price
 * volume
 
-<img src="/images/out_of_town.PNG" width="335" height = 300 /> 
+<img src="/images/predictor_value_counts.PNG" width="335" height = 300 /> 
 
 
 ## Column Engineering
