@@ -29,9 +29,6 @@ In the last six years, The amazon sees a 4 percent price change within 5 days ab
 Note, the days that sees a 4 percent price change within 5 days are typically grouped  
 
 
-
-
-
 ## Column Engineering
 I have engineered technical indicators to help with the predictions.  
 These included: 
@@ -42,19 +39,26 @@ These included:
 * Average True Range (ATR)
 * Average Directional Index (ADX)
 
+
 ## Model
 Knn and svc models did poorly on the base modeling process.  
 Decision Tree and XGB models both had decent starting stats.  
 My Efforts had been spent on the Decision Tree Classifier to use as a best estimator to the Gradient Boosting model.
+
 
 ### Decision Tree Classifier
 <img src="/images/feature_importances.PNG" width = 25%/> 
 
 Interestingly my model did not make use of the stochastic or the relative strength index(RSI) techinical Indicators or the Open and Low prices.
 
+
 ### Gradient Boosting
-<img src="/images/classification_report.PNG" width = 50%/> 
-<img src="/images/confusion_matrix_full.PNG" width = 50%/>   <img src="/images/confusion_matrix_test.PNG" width = 50%/> 
+<img src="/images/classification_report.PNG" width = 50%/>   
+
+|   All X's and Y's                                  |               Test X's and Y's                     |
+|----------------------------------------------------| ---------------------------------------------------|
+|<img src="/images/confusion_matrix_full.PNG"/>      |  <img src="/images/confusion_matrix_test.PNG"/>    | 
+
 
 Precision = .84  
 Recall = .21  
@@ -76,13 +80,13 @@ These four data points represents the bad investment opportunites that my model 
 |<img src="/images/amzn_predict1.PNG"/>              |  <img src="/images/amzn_predict2.PNG"/>| 
 
 
-
 ## Recommendations
 * I would recommend the investment company to continue to expand their AI efforts to other stock markets.
 
 * When focusing on technical indicators, I would suggest focusing on:  Average True Range (ATR), Simple Moving Average (SMA), Average Directional Index (ADX), Rate-of-change (ROC);    With less focus on: Stochastic and Relative Strength Index (RSI) indicators.
 
 * Having a sell point barely lower than 4 percent to catch some false positives. 
+
 
 ## Future Works
 * My initial XGB models yielded decent stats, so I would like to test the XGB model as a best estimator in place of the decision tree.
