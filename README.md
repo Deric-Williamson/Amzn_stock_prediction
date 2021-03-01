@@ -30,5 +30,11 @@ These included:
 * Average True Range (ATR)
 * Average Directional Index (ADX)
 
+## Model
+Knn and svc models did poorly on the base modeling process.  
+Decision Tree and XGB models both had decent starting stats.  
+My Efforts had been spent on the Decision Tree Classifier to use as a best estimator to the Gradient Boosting model.
+
+### Decision Tree Classifier
 
 
