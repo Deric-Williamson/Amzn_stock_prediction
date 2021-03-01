@@ -54,8 +54,7 @@ Interestingly my model did not make use of the stochastic or the relative streng
 
 ### Gradient Boosting
 <img src="/images/classification_report.PNG" width = 50%/> 
-<img src="/images/confusion_matrix_full.PNG" width = 50%/> 
-<img src="/images/confusion_matrix_test.PNG" width = 50%/> 
+<img src="/images/confusion_matrix_full.PNG" width = 50%/>   <img src="/images/confusion_matrix_test.PNG" width = 50%/> 
 
 Precision = .84  
 Recall = .21  
