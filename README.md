@@ -66,14 +66,15 @@ Recall is still important in this model, It signifies the ratio between found to
 
 ## Misclassified Data
 These four data points represents the bad investment opportunites that my model suggest will go up four percent.
-<img src="/images/misclassified_data.PNG" width = 100%/> 
+<img src="/images/false-positives.PNG" width = 100%/> 
 
 * One point did go up to 3.975 percent
 * The rest was during Pandemic times, but other than that, I am unsure why it couldve failed.
 
 ## Predictive Function
-<img src="/images/amzn_predict1.PNG" width = 50%/> 
-<img src="/images/amzn_predict2.PNG" width = 50%/> 
+| Invest                                             |               Don't Invest                         |
+|----------------------------------------------------| ---------------------------------------------------|
+|<img src="/images/amzn_predict1.PNG"/>              |  <img src="/images/amzn_predict2.PNG"/>| 
 
 
 
