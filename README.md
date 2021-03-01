@@ -12,7 +12,7 @@ My model is focused on predicting any 4 percent price increase within a five-day
 
 
 ## Data 
-[AlphaVantage.co](https://www.alphavantage.co/)  
+The data was collected from [AlphaVantage.co](https://www.alphavantage.co/) api. 
 
 the data features:
 * open price
@@ -24,6 +24,10 @@ the data features:
 I will be using the last 1500 market days (roughly 6 years)  
 
 <img src="/images/predictor_value_counts.PNG" width = 50%/>  
+
+|   Days not to invest | Invest |
+|----------------------| -------|
+|  1053                |  447   | 
    
 In the last six years, The amazon sees a 4 percent price change within 5 days about a third of the time.  
 Note, the days that sees a 4 percent price change within 5 days are typically grouped  
