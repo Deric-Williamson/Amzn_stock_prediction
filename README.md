@@ -53,18 +53,21 @@ Interestingly my model did not make use of the stochastic or the relative streng
 
 
 ### Gradient Boosting
-<img src="/images/classification_report.PNG" width = 50%/>   
+<img src="/images/classification_report.PNG" width = 50%/>  
+
+Precision = .84  
+Recall = .21  
+  
+Precision is more important in this model, It signifies the ratio between good investments to bad.  
+Recall is still important in this model, It signifies the ratio between found to loss inventing opportunities  
+
 
 |   All X's and Y's                                  |               Test X's and Y's                     |
 |----------------------------------------------------| ---------------------------------------------------|
 |<img src="/images/confusion_matrix_full.PNG"/>      |  <img src="/images/confusion_matrix_test.PNG"/>    | 
 
 
-Precision = .84  
-Recall = .21  
-  
-Precision is more important in this model, It signifies the ratio between good investments to bad.  
-Recall is still important in this model, It signifies the ratio between found to loss inventing opportunities
+
 
 
 ## Misclassified Data
