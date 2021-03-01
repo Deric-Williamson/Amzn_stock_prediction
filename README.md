@@ -12,7 +12,7 @@ My model is focused on predicting any 4 percent price increase within a five-day
 
 
 ## Data 
-https://www.alphavantage.co/
+[AlphaVantage.co](https://www.alphavantage.co/)
 
 the data features:
 * open price
@@ -20,6 +20,9 @@ the data features:
 * low price 
 * close price
 * volume
+
+<img src="/images/out_of_town.PNG" width="335" height = 300 /> 
+
 
 ## Column Engineering
 I have engineered technical indicators to help with the predictions.  
