@@ -63,7 +63,7 @@ Precision = .84
 Recall = .21  
   
 Precision is more important in this model, It signifies the ratio between good investments to bad.  
-Recall is still important in this model, It signifies the ratio between found to missed inventing opportunities  
+Recall is still important in this model, It signifies the ratio between found to missed investing opportunities  
 
 
 |   All X's and Y's                                  |               Test X's and Y's                     |
